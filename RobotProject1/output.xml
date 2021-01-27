@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210125 15:46:00.915" generator="Robot 3.2.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\10262210\eclipse-workspace\RobotProject1" id="s1" name="RobotProject1">
+<suite source="C:\Users\10262210\eclipse-workspace\RobotProject1\Test" id="s1-s1" name="Test">
+<suite source="C:\Users\10262210\eclipse-workspace\RobotProject1\Test\TestSuite1.robot" id="s1-s1-s1" name="TestSuite1">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test suite setup</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.407" level="INFO">I am inside test suite setup</msg>
+<status status="PASS" endtime="20210125 15:46:01.407" starttime="20210125 15:46:01.407"></status>
+</kw>
+<test id="s1-s1-s1-t1" name="MySecondTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test setup</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.410" level="INFO">I am inside test setup</msg>
+<status status="PASS" endtime="20210125 15:46:01.410" starttime="20210125 15:46:01.409"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>My first Test</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.411" level="INFO">My first Test</msg>
+<status status="PASS" endtime="20210125 15:46:01.412" starttime="20210125 15:46:01.411"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test teardown</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.413" level="INFO">I am inside test teardown</msg>
+<status status="PASS" endtime="20210125 15:46:01.413" starttime="20210125 15:46:01.412"></status>
+</kw>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" endtime="20210125 15:46:01.413" critical="yes" starttime="20210125 15:46:01.408"></status>
+</test>
+<test id="s1-s1-s1-t2" name="MySecondTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test setup</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.416" level="INFO">I am inside test setup</msg>
+<status status="PASS" endtime="20210125 15:46:01.416" starttime="20210125 15:46:01.415"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>My Second Test</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.417" level="INFO">My Second Test</msg>
+<status status="PASS" endtime="20210125 15:46:01.418" starttime="20210125 15:46:01.417"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.419" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" endtime="20210125 15:46:01.419" starttime="20210125 15:46:01.418"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.420" level="INFO">Removed tag 'regression1'.</msg>
+<status status="PASS" endtime="20210125 15:46:01.421" starttime="20210125 15:46:01.419"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test teardown</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.421" level="INFO">I am inside test teardown</msg>
+<status status="PASS" endtime="20210125 15:46:01.422" starttime="20210125 15:46:01.421"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20210125 15:46:01.422" critical="yes" starttime="20210125 15:46:01.415"></status>
+</test>
+<test id="s1-s1-s1-t3" name="MyThirdTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test setup</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.425" level="INFO">I am inside test setup</msg>
+<status status="PASS" endtime="20210125 15:46:01.425" starttime="20210125 15:46:01.424"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>My Third Test</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.426" level="INFO">My Third Test</msg>
+<status status="PASS" endtime="20210125 15:46:01.427" starttime="20210125 15:46:01.426"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test teardown</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.428" level="INFO">I am inside test teardown</msg>
+<status status="PASS" endtime="20210125 15:46:01.429" starttime="20210125 15:46:01.427"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20210125 15:46:01.429" critical="yes" starttime="20210125 15:46:01.423"></status>
+</test>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside test suite tear down</arg>
+</arguments>
+<msg timestamp="20210125 15:46:01.431" level="INFO">I am inside test suite tear down</msg>
+<status status="PASS" endtime="20210125 15:46:01.431" starttime="20210125 15:46:01.430"></status>
+</kw>
+<status status="PASS" endtime="20210125 15:46:01.432" starttime="20210125 15:46:01.001"></status>
+</suite>
+<status status="PASS" endtime="20210125 15:46:01.435" starttime="20210125 15:46:00.997"></status>
+</suite>
+<status status="PASS" endtime="20210125 15:46:01.437" starttime="20210125 15:46:00.971"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">sanity</stat>
+<stat fail="0" pass="1">smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RobotProject1" pass="3">RobotProject1</stat>
+<stat fail="0" id="s1-s1" name="Test" pass="3">RobotProject1.Test</stat>
+<stat fail="0" id="s1-s1-s1" name="TestSuite1" pass="3">RobotProject1.Test.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210125 15:46:01.414" level="WARN">Multiple test cases with name 'MySecondTest' executed in test suite 'RobotProject1.Test.TestSuite1'.</msg>
+</errors>
+</robot>
