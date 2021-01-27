@@ -57,3 +57,7 @@ MySecondTest
     
 MyThirdTest
     Log    My Third Test
+    
+
+MyFourthTest
+    Log    For checking or pushing into Git repo
